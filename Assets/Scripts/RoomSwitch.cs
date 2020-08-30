@@ -6,8 +6,7 @@ public class RoomSwitch : MonoBehaviour
 {
     [SerializeField] private Transform room1Center;
     [SerializeField] private Transform room2Center;
-    private bool atRoomOne = true;
-    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,16 +18,12 @@ public class RoomSwitch : MonoBehaviour
     {
         if (Input.GetKeyDown("2"))
         {
-            if (atRoomOne)
-            {
-                transform.position = room2Center.position;
-            }
-            else
-            {
-                transform.position = room1Center.position;
-            }
+            transform.position = room2Center.position;
+        }
 
-            atRoomOne = !atRoomOne;
+        if (Input.GetKeyDown("1"))
+        {
+            transform.position = room1Center.position;
         }
 
         if (Input.GetKeyDown(KeyCode.Escape))

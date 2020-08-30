@@ -99,6 +99,7 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="BallDropScript.cs" t="Include" />
           <e p="Lightswitch.cs" t="Include" />
           <e p="Orbit.cs" t="Include" />
           <e p="RoomSwitch.cs" t="Include" />

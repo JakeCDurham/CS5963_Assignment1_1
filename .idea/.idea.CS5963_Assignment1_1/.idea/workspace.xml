@@ -20,12 +20,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e56b513b-60ff-4a47-b08f-5f0527cc4093" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Door.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Door.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Handle.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Handle.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/tile.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/tile.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BallDropScript.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Wall 2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Wall 2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Wall 3.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Wall 3.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Wall And Door.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Wall And Door.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Wall.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Wall.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/floor.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/floor.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sky13_BK.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sky13_BK.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sky13_DN.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sky13_DN.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sky13_FR.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sky13_FR.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sky13_LF.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sky13_LF.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sky13_RT.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sky13_RT.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sky13_UP.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sky13_UP.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/tile-normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/tile-normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/tile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/tile.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/wall 1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/wall 1.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CS5963_Assignment1_1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CS5963_Assignment1_1/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CS5963_Assignment1_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CS5963_Assignment1_1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/RoomSwitch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RoomSwitch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/841120-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/841120-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/beeb6c-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/beeb6c-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
     </list>
@@ -39,6 +78,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RoomSwitch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BallDropScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Orbit.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -47,6 +87,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Lightswitch.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Orbit.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RoomSwitch.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BallDropScript.cs" />
       </list>
     </option>
   </component>
@@ -64,6 +105,12 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -93,7 +140,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598741139631</updated>
-      <workItem from="1598741143966" duration="1542000" />
+      <workItem from="1598741143966" duration="3179000" />
     </task>
     <servers />
   </component>
