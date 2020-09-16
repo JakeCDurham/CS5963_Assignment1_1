@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class lazer : MonoBehaviour
 {
-    private bool inZone = false;
+    public bool inZone = false;
 
     private void OnCollisionEnter(Collision other)
     {
@@ -25,9 +25,5 @@ public class lazer : MonoBehaviour
 
     private void Update()
     {
-        if (OVRInput.Get(OVRInput.Axis1D.PrimaryHandTrigger) > 0)
-        {
-            Debug.Log("Grabbed.");
-        }
     }
 }
