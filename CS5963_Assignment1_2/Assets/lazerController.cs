@@ -20,9 +20,10 @@ public class lazerController : MonoBehaviour
         foreach (GameObject G in lazers)
         {
             G.SetActive(false);
+            G.AddComponent<lazer>();
         }
         lazers[0].SetActive(true);
-        score = 5;
+        score = 0;
     }
 
     // Update is called once per frame
@@ -30,6 +31,15 @@ public class lazerController : MonoBehaviour
     {
         scoreText.text = "Score: " + score.ToString();
         timeLeft -= Time.deltaTime;
+
+        if (OVRInput.Get(OVRInput.Button.Start, OVRInput.Controller.LTouch))
+        {
+#if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+#else
+Application.Quit();
+#endif
+        }
 
         if (timeLeft <= 0 || triggerSwitch)
         {
@@ -45,26 +55,16 @@ public class lazerController : MonoBehaviour
             lazers[temp].SetActive(true);
             currentIndex = temp;
         }
-        var inputDevices = new List<UnityEngine.XR.InputDevice>();
-        UnityEngine.XR.InputDevices.GetDevices(inputDevices);
 
-        foreach (var device in inputDevices)
+        foreach (GameObject go in lazers)
         {
-            bool triggerValue;
-            if(device.TryGetFeatureValue(UnityEngine.XR.CommonUsages.triggerButton, out triggerValue) && triggerValue) {
-                scoreText.text = "Trigger pressed!";
-                foreach(GameObject current in lazers) {
-                    if (current.GetComponent<lazer>().inZone) {
-                        score += 1;
-                        SwitchLights();
-                    }
-                }
+            lazer laz = go.GetComponent<lazer>();
+            if (laz.inZone && OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger, OVRInput.Controller.RTouch) > 0)
+            {
+                score++;
+                triggerSwitch = true;
+                laz.inZone = false;
             }
         }
-    }
-
-    public void SwitchLights()
-    {
-        triggerSwitch = true;
     }
 }
