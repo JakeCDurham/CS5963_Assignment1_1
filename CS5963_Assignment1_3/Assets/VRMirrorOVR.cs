@@ -33,7 +33,16 @@ public class VRMirrorOVR : MonoBehaviour
             OVRCameraRig camera = gameObject.GetComponent<OVRCameraRig>();
             cube.transform.position += camera.centerEyeAnchor.position - previousPos;
             previousPos = camera.centerEyeAnchor.position;
-            cube.transform.rotation = camera.leftEyeAnchor.rotation;
+            cube.transform.rotation = camera.centerEyeAnchor.rotation;
+        }
+        else
+        {
+            OVRCameraRig camera = gameObject.GetComponent<OVRCameraRig>();
+            cube.transform.rotation = Quaternion.Inverse(camera.centerEyeAnchor.rotation);
+            cube.transform.rotation *= Quaternion.Euler(0, 180f, 0);
+            cube.transform.rotation *= Quaternion.Euler(2 * (-cube.transform.rotation.eulerAngles.x), 0, 0);
+            cube.transform.position = camera.centerEyeAnchor.position;
+            cube.transform.position = cube.transform.position.ToFlippedZVector3f().FromVector3f();
         }
     }
 }
